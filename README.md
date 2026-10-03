@@ -21,7 +21,7 @@ Over time the graph becomes a visual map of your learning journey.
 Chatting in **Raft** sends the LLM: summaries of *Distributed Systems* → *Consensus* → *Raft*'s own history.
 It does **not** send anything about *Kafka*.
 
-## Planned architecture
+## Planned architecture (indicative — stack not final)
 
 ```
 React + React Flow  (graph canvas + chat panel)
@@ -34,4 +34,5 @@ Neo4j (nodes, edges,   Ollama / LLM provider
 
 ## Status
 
-New repo, evolving from the `graph-llm` prototype (React Flow UI, FastAPI + Neo4j CRUD, Ollama agent).
+Requirements finalised — see [REQUIREMENTS.md](REQUIREMENTS.md). Tech stack is next.
+Evolves from the `graph-llm` prototype (React Flow UI, FastAPI + Neo4j CRUD, Ollama agent).
